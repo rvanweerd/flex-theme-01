@@ -1,0 +1,58 @@
+/*
+The responsive stylesheet
+*/
+
+#main-content,
+aside.first,
+aside.second {
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+aside.first .widget.left {
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+}
+
+aside.first .widget.center {
+    -webkit-order: 3;
+    -ms-order: 3;
+    order: 3;
+}
+
+aside.first .widget.right {
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+}
+
+nav {
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+}
+
+#content {
+    -webkit-order: 3;
+    -ms-order: 3;
+    order: 3;
+}
+
+aside.second {
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+}
+
+nav,
+#content,
+aside.second,
+aside.first .widget {
+    -webkit-flex-basis: auto;
+    -ms-flex-basis: auto;
+    flex-basis: auto;
+}

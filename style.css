@@ -1,0 +1,47 @@
+/*
+Theme Name: Flexbox WordPress stage 01
+Theme URI: vanweerd.com
+Description: Exploring Flexbox layouts in WordPress
+Version: 0.0.1
+Author: Ronald van Weerd
+Author URI: http://vanweerd.com
+Tags: flexbox
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #3B3F41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    line-height: 1.625;
+}
+
+header.site-header, 
+footer.site-footer {
+    border: 1px solid #eebb55;
+    background: #2ecc71;
+}
+
+aside.first .widget {
+    border: 1px solid #cccc33;
+    background-color: #cccc33;
+}
+
+nav {
+   border: 1px solid #8888bb;
+   background: #bcaaa4;
+}
+
+#content {
+   border: 1px solid #cccc33;
+   background: #00aba9;
+   }
+
+aside.second {
+    border: 1px solid #8888bb;
+    background: #b0bec5;
+}

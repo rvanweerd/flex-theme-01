@@ -1,0 +1,92 @@
+/*
+the structure of the site
+*/
+body {
+   margin: 0;
+   height: 100%;
+   width: 100%;
+}
+
+header.site-header, 
+footer.site-footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center; /* vertically center */
+    justify-content: center; /* vertically center */
+}
+
+header.site-header img {
+    width: 100%; 
+    height: auto;
+}
+
+aside.first {
+    margin: 0; padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+}
+
+aside.first .widget {
+    min-width: 0;
+    margin: 4px;
+    padding: 5px;
+    -webkit-flex: 0 1 33%;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+}
+
+#main-content {
+    margin: 0 auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    max-width: 70em;     align-items: stretch;
+}
+
+nav {
+   margin: 4px;
+   padding: 5px;
+    -webkit-flex: 1 6 25%;
+    -ms-flex: 1 6 25%;
+    flex: 1 6 25%;
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+}
+
+#content {
+   margin: 4px !important; /* Really? Fixing Chrome adding 140px top margin */
+   padding: 5px;
+    -webkit-flex: 3 1 50%;
+    -ms-flex: 3 1 50%;
+    flex: 3 1 50%;    
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+    align-self: stretch;
+   }
+
+aside.second {
+    margin: 4px;
+    padding: 5px;
+    -webkit-flex: 1 6 25%;     -ms-flex: 1 6 25%;     flex: 1 6 25%;
+    -webkit-order: 3;
+    -ms-order: 3;
+    order: 3;
+}
